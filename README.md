@@ -13,7 +13,7 @@ This is a solution to the Interactive rating component challenge on Frontend Men
 
 ### Overview
 
-** The challenge **
+**The challenge**
 
 Users should be able to:
 
@@ -22,12 +22,12 @@ See hover states for all interactive elements on the page
 submit and see a thank you card see rating 
 
 
-** ScreenShot **
+**ScreenShot**
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
-** Links **
-Live Site URL: Live site (https://glistening-tapioca-bc0e5d.netlify.app/)
+**Links**
+Live Site URL: https://glistening-tapioca-bc0e5d.netlify.app/
 
 
 
