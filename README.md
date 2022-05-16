@@ -27,6 +27,8 @@ submit and see a thank you card see rating
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 **Links**
+
+
 Live Site URL: https://glistening-tapioca-bc0e5d.netlify.app/
 
 
