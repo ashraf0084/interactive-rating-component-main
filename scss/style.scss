@@ -1,0 +1,132 @@
+@import "_global.scss";
+
+body {
+    font-family: $font_family;
+    background: $very_dark_blue;
+    font-size: 15px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: $dark_blue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 24px;
+
+    @include for-desktop-up {
+        width: 400px;
+        padding: 27px;
+    }
+
+    .star-container {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: $light_grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 17px;
+            height: 17px;
+        }
+    }
+
+
+
+    .rate-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 22px 0px;
+
+        .rate-btn {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: $light_grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $medium_grey;
+
+            &:hover {
+                background-color: $primary_color;
+                color: $white;
+            }
+
+        }
+
+        .active {
+            background-color: $medium_grey;
+            color: $white;
+        }
+
+    }
+
+    .btn {
+        background-color: $primary_color;
+        color: $white;
+        font-size: 13px;
+        font-weight: $font_weight_bold;
+        border: 0px;
+        border-radius: 50px;
+        width: 100%;
+        padding: 14px 40px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+
+
+        &:hover {
+            background-color: $white;
+            color: $primary_color
+        }
+
+
+    }
+
+
+
+
+
+}
+
+.center {
+    text-align: center;
+}
+
+.card1 {
+    background-color: $dark_blue;
+    border-radius: 20px;
+    padding: 27px;
+    margin: 24px;
+    text-align: center;
+
+    @include for-desktop-up {
+        width: 400px;
+        padding: 27px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 25px 0px;
+    }
+
+    .rate-tag {
+        background-color: $light_grey;
+        color: $primary_color;
+        padding: 8px 11px;
+        border: 0px;
+        border-radius: 20px;
+        margin: 24px auto;
+    }
+}
