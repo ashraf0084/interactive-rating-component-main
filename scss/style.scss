@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-    background-color: $dark_blue;
+    background-color: hsla(213, 19%, 18%,0.8);
     border-radius: 20px;
     padding: 20px;
     margin: 24px;
@@ -48,7 +48,9 @@ body {
         justify-content: space-between;
         align-items: center;
         margin: 22px 0px;
-
+        @include for-desktop-up {
+            margin: 35px 0px;
+        }
         .rate-btn {
             width: 48px;
             height: 48px;
@@ -58,6 +60,7 @@ body {
             justify-content: center;
             align-items: center;
             color: $medium_grey;
+            cursor: pointer;
 
             &:hover {
                 background-color: $primary_color;
@@ -84,7 +87,7 @@ body {
         padding: 14px 40px;
         text-transform: uppercase;
         letter-spacing: 4px;
-
+        cursor: pointer;
 
         &:hover {
             background-color: $white;
@@ -116,7 +119,7 @@ body {
         padding: 27px;
     }
 
-    h2 {
+    h1 {
         font-size: 20px;
         margin: 25px 0px;
     }
@@ -128,5 +131,6 @@ body {
         border: 0px;
         border-radius: 20px;
         margin: 24px auto;
+
     }
 }
